@@ -86,9 +86,7 @@ Description: libra Admin API
 Package: python-lira
 Architecture: all
 Depends:
-    debhelper (>=9),
     python-support (>=1.0),
-    python-all-dev,
     python-daemon (>=1.5),
     python-eventlet (>=0.12),
     python-gearman (>=2.0.2),
