@@ -16,6 +16,7 @@ Build-Depends:
   python-novaclient (>=2.9),
   python-requests (>=0.12),
   python-sqlalchemy (>=0.8.0),
+  python-wsme (>=0.5b2),
 Build-Depends-Indep: python-sphinx (>=1.0), rst2pdf (>=0.16)
 Standards-Version: 3.9.4
 XB-Python-Version: ${python-Versions}
@@ -56,6 +57,8 @@ Description: libra worker
 Package: libra-pool-mgm
 Architecture: all
 Depends:
+    python-novaclient (>=2.9),
+    python-requests (>=0.12),
     python-libra (= ${binary:Version}),
     libra-common (= ${binary:Version}),
     ${python:Depends},
@@ -66,6 +69,9 @@ Description: libra pool-manager
 Package: libra-api
 Architecture: all
 Depends:
+    python-pecan (>=0.2.0),
+    python-sqlalchemy (>=0.8.0),
+    python-wsme (>=0.5b2),
     python-libra (= ${binary:Version}),
     libra-common (= ${binary:Version}),
     ${python:Depends},
@@ -76,6 +82,9 @@ Description: libra API
 Package: libra-api-admin
 Architecture: all
 Depends:
+    python-pecan (>=0.2.0),
+    python-sqlalchemy (>=0.8.0),
+    python-wsme (>=0.5b2),
     python-libra (= ${binary:Version}),
     libra-common (= ${binary:Version}),
     ${python:Depends},
@@ -86,17 +95,13 @@ Description: libra Admin API
 Package: python-libra
 Architecture: all
 Depends:
-    python-support (>=1.0),
     python-daemon (>=1.5),
     python-eventlet (>=0.12),
     python-gearman (>=2.0.2),
     python-ipaddress (>=1.0.4),
-    python-pecan (>=0.2.0),
     python-pbr (>=0.5.20),
     python-pbr (<<0.6),
-    python-novaclient (>=2.9),
-    python-requests (>=0.12),
-    python-sqlalchemy (>=0.8.0),
+    python-support (>=1.0)
 Provides:
     ${python:Provides}
 XB-Python-Version: ${python:Versions}
