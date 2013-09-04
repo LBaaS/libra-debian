@@ -1,0 +1,9 @@
+description "Libra api service"
+author "Endre Karlson <endre.karlson@hp.com>"
+
+start on runlevel [2345]
+stop on runlevel [016]
+
+respawn
+
+exec su -s /bin/sh -c "exec libra_api -c /etc/libra.cfg libra
