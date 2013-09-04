@@ -1,3 +1,10 @@
+libra (4.0-10) precise; urgency=high
+
+  * logstash 0.1.2 and not 0.1.2.3
+
+ -- Endre Karlson <endre.karlson@hp.com>  Wed, 04 Sep 2013 21:54:24 +0200
+
+
 libra (4.0-9) precise; urgency=high
 
   * Used wrong version of logstash

@@ -10,6 +10,7 @@ Build-Depends:
   python-eventlet (>=0.12),
   python-gearman (>=2.0.2),
   python-ipaddress (>=1.0.4),
+  python-logstash (>=0.1.2),
   python-pecan (>=0.2.0),
   python-pbr (>=0.5.20),
   python-pbr (<<0.6),
@@ -99,7 +100,7 @@ Depends:
     python-eventlet (>=0.12),
     python-gearman (>=2.0.2),
     python-ipaddress (>=1.0.4),
-    python-logstash (>=0.1.2.3),
+    python-logstash (>=0.1.2),
     python-pbr (>=0.5.20),
     python-pbr (<<0.6),
     python-support (>=1.0)
