@@ -83,7 +83,7 @@ Depends:
 Description: libra Admin API
  libra Admin API
 
-Package: python-lira
+Package: python-libra
 Architecture: all
 Depends:
     python-support (>=1.0),

@@ -1,3 +1,9 @@
+libra (4.0-3) precise; urgency=high
+
+  * Use correct name for python package
+
+ -- Endre Karlson <endre.karlson@hp.com>  Wed, 04 Sep 2013 09:50:10 +0200
+
 libra (4.0-2) precise; urgency=high
 
   * Remove debhelper and python-all-dev from deps
