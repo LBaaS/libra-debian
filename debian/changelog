@@ -1,3 +1,9 @@
+libra (4.0-8) precise; urgency=high
+
+  * Depend python-logstash
+
+ -- Endre Karlson <endre.karlson@hp.com>  Wed, 04 Sep 2013 20:48:24 +0200
+
 libra (4.0-7) precise; urgency=high
 
   * Missing a quote in the upstart files
