@@ -1,3 +1,9 @@
+libra (4.1-1) precise; urgency=high
+
+  * Bump version
+
+ -- Endre Karlson <endre.karlson@hp.com>  Thu, 05 Sep 2013 19:54:57 +0200
+
 libra (4.0-12) precise; urgency=high
 
   * Update novaclient dep
