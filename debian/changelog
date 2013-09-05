@@ -1,3 +1,9 @@
+libra (4.0-11) precise; urgency=high
+
+  * Depend keystoneclient without version
+
+ -- Endre Karlson <endre.karlson@hp.com>  Thu, 05 Sep 2013 08:40:33 +0200
+
 libra (4.0-10) precise; urgency=high
 
   * logstash 0.1.2 and not 0.1.2.3

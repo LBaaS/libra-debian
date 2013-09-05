@@ -70,6 +70,7 @@ Description: libra pool-manager
 Package: libra-api
 Architecture: all
 Depends:
+    python-keystoneclient,
     python-pecan (>=0.2.0),
     python-sqlalchemy (>=0.8.0),
     python-wsme (>=0.5b2),
@@ -83,6 +84,7 @@ Description: libra API
 Package: libra-api-admin
 Architecture: all
 Depends:
+    python-keystoneclient,
     python-pecan (>=0.2.0),
     python-sqlalchemy (>=0.8.0),
     python-wsme (>=0.5b2),
