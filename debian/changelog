@@ -1,3 +1,9 @@
+libra (4.0-12) precise; urgency=high
+
+  * libra-admin-api and not libra-api-admin
+
+ -- Endre Karlson <endre.karlson@hp.com>  Thu, 05 Sep 2013 15:17:33 +0200
+
 libra (4.0-11) precise; urgency=high
 
   * Depend keystoneclient without version

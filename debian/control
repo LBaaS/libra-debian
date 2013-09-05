@@ -32,7 +32,7 @@ Depends:
     libra-common (= ${binary:Version}),
     libra-worker (= ${binary:Version}),
     libra-pool-mgm (= ${binary:Version}),
-    libra-api-admin (= ${binary:Version}),
+    libra-admin-api (= ${binary:Version}),
     libra-api (= ${binary:Version}),
     ${python:Depends},
     ${misc:Depends}
@@ -81,7 +81,7 @@ Depends:
 Description: libra API
  libra API
 
-Package: libra-api-admin
+Package: libra-admin-api
 Architecture: all
 Depends:
     python-keystoneclient,
