@@ -1,3 +1,9 @@
+libra (4.2.1-1) precise; urgency=high
+
+  * New upstream
+
+ -- Endre Karlson <endre.karlson@hp.com>  Mon, 09 Sep 2013 16:52:43 +0200
+
 libra (4.1-1) precise; urgency=high
 
   * Bump version
