@@ -14,7 +14,8 @@ Build-Depends:
   python-pecan (>=0.2.0),
   python-pbr (>=0.5.20),
   python-pbr (<<0.6),
-  python-novaclient (>2.14.0),
+  python-novaclient (>=2.14.1),
+  python-novaclient (<2.14.2),
   python-requests (>=0.12),
   python-sqlalchemy (>=0.8.0),
   python-wsme (>=0.5b2),
@@ -58,7 +59,8 @@ Description: libra worker
 Package: libra-pool-mgm
 Architecture: all
 Depends:
-    python-novaclient (<2.14.0),
+    python-novaclient (>=2.14.1),
+    python-novaclient (<2.14.2),
     python-requests (>=0.12),
     python-libra (= ${binary:Version}),
     libra-common (= ${binary:Version}),
