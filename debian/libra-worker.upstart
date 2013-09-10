@@ -5,5 +5,6 @@ start on runlevel [2345]
 stop on runlevel [016]
 
 respawn
+expect daemon
 
 exec su -s /bin/sh -c "exec libra_worker -c /etc/libra.cfg" libra
