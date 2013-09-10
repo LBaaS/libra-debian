@@ -1,3 +1,9 @@
+libra (4.2.2-3) precise; urgency=high
+
+  * Fix directories
+
+ -- Endre Karlson <endre.karlson@gmail.com>  Tue, 10 Sep 2013 14:24:35 +0200
+
 libra (4.2.2-2) precise; urgency=high
 
   * Fixup postinst
