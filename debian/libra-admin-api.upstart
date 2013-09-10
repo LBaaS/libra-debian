@@ -4,7 +4,11 @@ author "Endre Karlson <endre.karlson@hp.com>"
 start on runlevel [2345]
 stop on runlevel [016]
 
-respaw
-expect daemon
+respawn
 
-exec su -s /bin/sh -c "exec libra_admin_api -c /etc/libra.cfg" libra
+pre-start script
+    mkdir -p -m0755 /var/run/libra
+    chown libra /var/run/libra
+end script
+
+exec /usr/bin/libra_admin_api -c /etc/libra.cfg --user=libra

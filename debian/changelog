@@ -1,3 +1,9 @@
+libra (4.2.2-4) precise; urgency=high
+
+  * Fix upstart scripts
+
+ -- Endre Karlson <endre.karlson@hp.com>  Tue, 10 Sep 2013 18:36:35 +0200
+
 libra (4.2.2-3) precise; urgency=high
 
   * Fix directories

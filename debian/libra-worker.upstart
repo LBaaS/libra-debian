@@ -5,6 +5,10 @@ start on runlevel [2345]
 stop on runlevel [016]
 
 respawn
-expect daemon
 
-exec su -s /bin/sh -c "exec libra_worker -c /etc/libra.cfg" libra
+pre-start script
+    mkdir -p -m0755 /var/run/libra
+    chown libra /var/run/libra
+end script
+
+exec /usr/bin/libra_worker -c /etc/libra.cfg --user=libra
