@@ -1,3 +1,9 @@
+libra (4.2.2-5) precise; urgency=high
+
+  * Remove chown of lib directory
+
+ -- Endre Karlson <endre.karlson@hp.com>  Tue, 10 Sep 2013 20:04:22 +0200
+
 libra (4.2.2-4) precise; urgency=high
 
   * Fix upstart scripts
