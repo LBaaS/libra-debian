@@ -11,4 +11,4 @@ pre-start script
     chown libra /var/run/libra
 end script
 
-exec /usr/bin/libra_api -c /etc/libra.cfg" --user=libra
+exec /usr/bin/libra_api -c /etc/libra.cfg --user=libra

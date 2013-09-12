@@ -1,3 +1,11 @@
+libra (4.2.3-1) precise; urgency=high
+
+  * Fix bugs in API, Admin API and Pool Manager
+  * Fix typo in API upstart script
+  * Don't install /etc/libra.cfg, it causes apt to go interactive
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Thu, 12 Sep 2013 10:47:35 +0100
+
 libra (4.2.2-6) precise; urgency=high
 
   * Depend on haproxy and swiftclient
