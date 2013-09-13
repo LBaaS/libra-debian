@@ -1,3 +1,10 @@
+libra (4.3-1) precise; urgency=high
+
+  * Multi-threaded pool manager
+  * Improvements to DB handling
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Fri, 13 Sep 2013 14:36:51 +0100
+
 libra (4.2.3-1) precise; urgency=high
 
   * Fix bugs in API, Admin API and Pool Manager
