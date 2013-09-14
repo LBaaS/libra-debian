@@ -1,3 +1,10 @@
+libra (4.5-1) precise; urgency=high
+
+  * More critical bug fixes
+  * PBR fix
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Sat, 14 Sep 2013 08:18:29 +0100
+
 libra (4.4-1) precise; urgency=high
 
   * Critical bug fixes
