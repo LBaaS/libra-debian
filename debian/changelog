@@ -1,3 +1,10 @@
+libra (4.6-1) precise; urgency=high
+
+  * Bug fixes
+  * Improved auto-failover handling
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Sat, 19 Sep 2013 07:50:50 +0100
+
 libra (4.5-1) precise; urgency=high
 
   * More critical bug fixes
