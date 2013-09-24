@@ -1,3 +1,10 @@
+libra (4.8-1) precise; urgency=high
+
+  * Bug fixes
+  * Documentation updates
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Tue, 24 Sep 2013 07:53:57 +0100
+
 libra (4.7-1) precise; urgency=high
 
   * Bug fixes
