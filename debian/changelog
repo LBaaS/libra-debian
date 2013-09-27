@@ -4,7 +4,7 @@ libra (4.9-1) precise; urgency=high
   * Documentation updates
   * Does not include the GALERA protocol yet
 
- -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Fri, 27 Sep 2013 07:12:36 +0100
+ -- Endre Karlson <endre.karlson@hp.com>  Fri, 27 Sep 2013 07:12:36 +0100
 
 libra (4.8-1) precise; urgency=high
 
