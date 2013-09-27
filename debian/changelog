@@ -1,3 +1,11 @@
+libra (4.9-1) precise; urgency=high
+
+  * API Bug fixes
+  * Documentation updates
+  * Does not include the GALERA protocol yet
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Tue, 27 Sep 2013 07:12:36 +0100
+
 libra (4.8-1) precise; urgency=high
 
   * Bug fixes
