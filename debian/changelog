@@ -1,3 +1,9 @@
+libra (5.0-1) precise; urgency=high
+
+  * Bump upstream
+
+ -- Endre Karlson <endre.karlson@hp.com>  Thu, 03 Oct 2013 09:54:38 +0200
+
 libra (4.9-1) precise; urgency=high
 
   * API Bug fixes
