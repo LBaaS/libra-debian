@@ -51,6 +51,7 @@ Package: libra-worker
 Architecture: all
 Depends:
     haproxy,
+    socat,
     python-swiftclient (>=1:1.5.0),
     python-libra (= ${binary:Version}),
     libra-common (= ${binary:Version}),

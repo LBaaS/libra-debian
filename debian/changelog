@@ -1,3 +1,10 @@
+libra (4.11-1) precise; urgency=high
+
+  * Revert worker restart patch
+  * Require socat for worker
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Tue, 08 Oct 2013 21:18:34 +0100
+
 libra (4.10-1) precise; urgency=high
 
   * API Bug fixes
