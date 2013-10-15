@@ -1,3 +1,9 @@
+libra (4.13-1) precise; urgency=high
+
+  * Add 422 error state
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Tue, 15 Oct 2013 13:49:34 +0100
+
 libra (4.12-1) precise; urgency=high
 
   * Improved floating IP error handling
