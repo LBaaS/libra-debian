@@ -1,3 +1,9 @@
+libra (4.14-1) precise; urgency=high
+
+  * Improved API failure handling
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Wed, 16 Oct 2013 21:37:57 +0100
+
 libra (4.13-1) precise; urgency=high
 
   * Add 422 error state
