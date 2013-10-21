@@ -1,3 +1,9 @@
+libra (4.16.4-1) precise; urgency=high
+
+  * Fix more stupid mistakes
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Mon, 21 Oct 2013 10:47:47 +0100
+
 libra (4.16.3-1) precise; urgency=high
 
   * Fix more stupid mistakes
