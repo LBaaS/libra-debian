@@ -1,3 +1,9 @@
+libra (4.17-1) precise; urgency=high
+
+  * Fix socket handling in pool mgm
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Mon, 21 Oct 2013 16:39:18 +0100
+
 libra (4.16.5-1) precise; urgency=high
 
   * Fix more stupid mistakes
