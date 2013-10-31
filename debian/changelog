@@ -1,3 +1,9 @@
+libra (4.18-1) precise; urgency=high
+
+  * Improvements to floating IP handling and other bug fixes
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Thu, 31 Oct 2013 14:25:20 +0100
+
 libra (4.17-1) precise; urgency=high
 
   * Fix socket handling in pool mgm
