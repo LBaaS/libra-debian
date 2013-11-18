@@ -11,4 +11,9 @@ pre-start script
     chown libra /var/run/libra
 end script
 
-exec /usr/bin/libra_api -c /etc/libra.cfg --user=libra
+script
+    [ -r "UPSTART_JOB" ] && {
+        source $UPSTART_JOB
+    }
+    exec /usr/bin/libra_api $LIBRA_OPTS
+end script

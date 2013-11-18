@@ -1,3 +1,9 @@
+libra (5.2-1)
+
+  * Support overriding of default commandline and set logfile on commandline.
+
+-- Endre Karlson <endre.karlson@gmail.com> Mon, 18 Nov 2013 18:09:00 +0100
+
 libra (5.1-1) precise; urgency=high
 
   * Bugfix release
