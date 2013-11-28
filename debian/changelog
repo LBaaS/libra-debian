@@ -1,3 +1,9 @@
+libra (4.20-1) precise; urgency=high
+
+  * Stability fixes
+
+ -- Andrew Hutchings <andrew@linuxjedi.co.uk>  Mon, 28 Nov 2013 10:16:18 +0000
+
 libra (4.19-1) precise; urgency=high
 
   * Rework floating IP handling to be less locky and more reliable
