@@ -1,1 +1,2 @@
-etc/sample_libra.cfg /usr/share/libra
+etc/libra.cfg /usr/share/libra
+etc/logging.conf /usr/share/libra
