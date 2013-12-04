@@ -1,3 +1,9 @@
+libra (5.2.4-1) precise; urgency=high
+
+  * Fix unreported stats carry over bug
+
+ -- David Shrewsbury <shrewsbury.dave@gmail.com> Wed, 04 Dec 2013 09:29:29 -0500
+
 libra (5.2.3-2) precise; urgency=high
 
   * Support overriding of default commandline and set logfile on commandline.
