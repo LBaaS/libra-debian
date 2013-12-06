@@ -54,6 +54,7 @@ Architecture: all
 Depends:
     haproxy,
     socat,
+    python-babel (>=0.9.6),
     python-swiftclient (>=1:1.5.0),
     python-libra (= ${binary:Version}),
     libra-common (= ${binary:Version}),
@@ -65,6 +66,7 @@ Description: libra worker
 Package: libra-pool-mgm
 Architecture: all
 Depends:
+    python-babel (>=0.9.6),
     python-novaclient (>=1:2.14.1),
     python-novaclient (<<1:2.14.2),
     python-requests (>=0.12),
@@ -78,6 +80,7 @@ Description: libra pool-manager
 Package: libra-api
 Architecture: all
 Depends:
+    python-babel (>=0.9.6),
     python-keystoneclient,
     python-pecan (>=0.2.0),
     python-sqlalchemy (>=0.8.0),
@@ -93,6 +96,7 @@ Description: libra API
 Package: libra-admin-api
 Architecture: all
 Depends:
+    python-babel (>=0.9.6),
     python-keystoneclient,
     python-pecan (>=0.2.0),
     python-sqlalchemy (>=0.8.0),
@@ -108,11 +112,11 @@ Description: libra Admin API
 Package: python-libra
 Architecture: all
 Depends:
+    python-babel (>=0.9.6),
     python-daemon (>=1.5),
     python-eventlet (>=0.12),
     python-gearman (>=2.0.2),
     python-ipaddress (>=1.0.4),
-    python-logstash (>=0.1.2),
     python-pbr (>=0.5.20),
     python-pbr (<<0.6),
     python-support (>=1.0)

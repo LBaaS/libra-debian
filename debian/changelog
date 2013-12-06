@@ -1,3 +1,9 @@
+libra (5.2.4-2) precise; urgency=high
+
+  * Fix babel requirements in PPA.
+
+ -- David Shrewsbury <shrewsbury.dave@gmail.com> Wed, 06 Dec 2013 15:04:29 -0500
+
 libra (5.2.4-1) precise; urgency=high
 
   * Fix unreported stats carry over bug
