@@ -1,3 +1,9 @@
+libra (5.2.6-1) precise; urgency=high
+
+  * Bug fix: Register worker:haproxy config group.
+
+ -- David Shrewsbury <shrewsbury.dave@gmail.com> Mon, 09 Dec 2013 22:48:19 -0500
+
 libra (5.2.4-2) precise; urgency=high
 
   * Fix babel requirements in PPA.
