@@ -1,3 +1,11 @@
+libra (5.2.14-1) precise; urgency=high
+
+  * Disallow M&B messages if disabled
+  * Fix for deleting VIPs
+  * Unused code removal
+
+ -- David Shrewsbury <shrewsbury.dave@gmail.com> Wed, 18 Dec 2013 19:57:04 +0000
+
 libra (5.2.11-1) precise; urgency=high
 
   * Add runtime checks to verify Gearman SSL files can be read.
