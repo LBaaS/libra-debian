@@ -4,32 +4,32 @@ libra (5.2.14-1) precise; urgency=high
   * Fix for deleting VIPs
   * Unused code removal
 
- -- David Shrewsbury <shrewsbury.dave@gmail.com> Wed, 18 Dec 2013 19:57:04 +0000
+ -- David Shrewsbury <shrewsbury.dave@gmail.com>  Wed, 18 Dec 2013 19:57:04 +0000
 
 libra (5.2.11-1) precise; urgency=high
 
   * Add runtime checks to verify Gearman SSL files can be read.
   * Support load balancer timeout options.
 
- -- David Shrewsbury <shrewsbury.dave@gmail.com> Thu, 12 Dec 2013 22:08:29 +0000
+ -- David Shrewsbury <shrewsbury.dave@gmail.com>  Thu, 12 Dec 2013 22:08:29 +0000
 
 libra (5.2.6-1) precise; urgency=high
 
   * Bug fix: Register worker:haproxy config group.
 
- -- David Shrewsbury <shrewsbury.dave@gmail.com> Mon, 09 Dec 2013 22:48:19 -0500
+ -- David Shrewsbury <shrewsbury.dave@gmail.com>  Mon, 09 Dec 2013 22:48:19 -0500
 
 libra (5.2.4-2) precise; urgency=high
 
   * Fix babel requirements in PPA.
 
- -- David Shrewsbury <shrewsbury.dave@gmail.com> Wed, 06 Dec 2013 15:04:29 -0500
+ -- David Shrewsbury <shrewsbury.dave@gmail.com>  Wed, 06 Dec 2013 15:04:29 -0500
 
 libra (5.2.4-1) precise; urgency=high
 
   * Fix unreported stats carry over bug
 
- -- David Shrewsbury <shrewsbury.dave@gmail.com> Wed, 04 Dec 2013 09:29:29 -0500
+ -- David Shrewsbury <shrewsbury.dave@gmail.com>  Wed, 04 Dec 2013 09:29:29 -0500
 
 libra (5.2.3-2) precise; urgency=high
 
@@ -39,7 +39,7 @@ libra (5.2.3-2) precise; urgency=high
   * Support for metering and billing notifications
   * Many bug fixes
 
- -- David Shrewsbury <shrewsbury.dave@gmail.com> Tue, 03 Dec 2013 12:46:45 -0500
+ -- David Shrewsbury <shrewsbury.dave@gmail.com>  Tue, 03 Dec 2013 12:46:45 -0500
 
 libra (5.1-1) precise; urgency=high
 
