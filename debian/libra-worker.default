@@ -1,2 +1,2 @@
 # Specify command line options for libra-worker here
-LIBRA_OPTS="--config-file /etc/libra/libra.conf --log-file /var/log/libra/workerlog"
+LIBRA_OPTS="--config-file /etc/libra/libra.cfg --log-config-append /etc/libra/logging_worker.cfg"
