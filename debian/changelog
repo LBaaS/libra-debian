@@ -1,3 +1,10 @@
+libra (5.2.29-1) precise; urgency=high
+
+  * Fix validation for multi lbs per device
+  * Completed TCP Timeout work
+
+ -- Marc Pilon (marc pilon) <pilon.marc@gmail.com>  Tue, 27 Feb 2014 15:35:00 +0000
+
 libra (5.2.27-3) precise; urgency=high
 
   * Document all MnB config options 
