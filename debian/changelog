@@ -2,7 +2,7 @@ libra (5.3.1-1) precise; urgency=low
 
   * Admin API 2.0
 
- -- German Eichberger (xgerman) <german.eichberger@hp.com>  Fri, 04 Apr 2014 12:23:42 -0700
+ -- German Eichberger <german.eichberger@hp.com>  Fri, 04 Apr 2014 12:23:42 -0700
 
 libra (5.2.29-1) precise; urgency=high
 
