@@ -1,3 +1,9 @@
+libra (5.3.1-2) precise; urgency=high
+
+  * Fixed my LP setup so this should now build 
+
+ -- german <german.eichberger@hp.com>  Tue, 08 Apr 2014 11:16:59 -0700
+
 libra (5.3.1-1) precise; urgency=low
 
   * Admin API 2.0
