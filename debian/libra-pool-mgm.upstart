@@ -9,6 +9,7 @@ respawn
 pre-start script
     mkdir -p -m0755 /var/run/libra
     chown libra /var/run/libra
+    test -f /etc/default/libra-pool-mgm && . /etc/default/libra-pool-mgm
 end script
 
 script
