@@ -9,12 +9,12 @@ respawn
 pre-start script
     mkdir -p -m0755 /var/run/libra
     chown libra /var/run/libra
-    test -f /etc/default/libra-api && . /etc/default/libra-api
 end script
 
 script
     [ -r "UPSTART_JOB" ] && {
         source $UPSTART_JOB
     }
+    test -f /etc/default/libra-api && . /etc/default/libra-api
     exec /usr/bin/libra_api $LIBRA_OPTS
 end script
