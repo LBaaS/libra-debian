@@ -1,3 +1,9 @@
+libra (5.4.1-2) precise; urgency=high
+
+  * new worker based on gear (this time in the stable v5 branch)
+
+ -- German Eichberger <german.eichberger@hp.com>  Fri, 30 May 2014 13:02:51 -0700
+
 libra (5.4.1-1) precise; urgency=low
 
   *  new worker based on the gear library
