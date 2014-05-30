@@ -1,3 +1,9 @@
+libra (5.4.1-1) precise; urgency=low
+
+  *  new worker based on the gear library
+
+ -- German Eichberger <german.eichberger@hp.com>  Fri, 30 May 2014 10:31:35 -0700
+
 libra (5.3.1-2) precise; urgency=low
 
   * adding Patrick's fix for service 
