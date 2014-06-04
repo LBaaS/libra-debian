@@ -1,3 +1,9 @@
+libra (5.4.3-1) precise; urgency=medium
+
+  * all components are switched to gear; Yelp gearman is removed; gear is bundled internally 
+
+ -- German Eichberger <german.eichberger@hp.com>  Wed, 04 Jun 2014 15:59:12 -0700
+
 libra (5.4.1-2) precise; urgency=high
 
   * new worker based on gear (this time in the stable v5 branch)
