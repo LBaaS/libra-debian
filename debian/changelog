@@ -1,3 +1,9 @@
+libra (5.4.4-1) precise; urgency=low
+
+  * this time with tar 
+
+ -- German Eichberger <german.eichberger@hp.com>  Thu, 05 Jun 2014 10:03:51 -0700
+
 libra (5.4.3-2) precise; urgency=high
 
   * new build with libra in common 
@@ -312,4 +318,4 @@ libra (4.0-1) precise; urgency=low
 
   * Initial release.
 
- -mn Eichberger <german.eichberger@hp.com> Endre Karlson <endre.karlson@hp.com>  Thu, 03 Sep 2013 21:02:59 +0000
+ -mmn Eichberger <german.eichberger@hp.com> Eichberger <german.eichberger@hp.com> Endre Karlson <endre.karlson@hp.com>  Thu, 03 Sep 2013 21:02:59 +0000
