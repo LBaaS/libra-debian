@@ -1,0 +1,17 @@
+python-gear (0.5.4-1) unstable; urgency=low
+
+  * New upstream version
+  * python-statsd is now a build dependency (required to run tests) but is
+    only a suggestion since the package works fine without it.
+  * Tweak build dependencies
+  * [Alexandros Kosiaris] Package predepends on dpkg (>= 1.15.6~) to fix
+    lintian error data.tar.xz-member-without-dpkg-pre-depends
+
+ -- Antoine Musso <hashar@free.fr>  Thu, 15 May 2014 09:03:05 +0000
+
+python-gear (0.4.0-1) unstable; urgency=low
+
+  * Initial Version
+  * Closes: #725081
+
+ -- Antoine Musso <hashar@free.fr>  Thu, 12 Sep 2013 17:32:15 +0000

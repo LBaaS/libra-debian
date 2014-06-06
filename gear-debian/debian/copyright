@@ -1,0 +1,20 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: gear
+Upstream-Contact: Openstack Infrastructure
+Source: https://review.openstack.org/p/openstack-infra/gear.git
+
+Files: *
+Copyright: Copyright 2013 OpenStack Foundation
+ Copyright (c) 2013 Hewlett-Packard Development Company, L.P.
+License: Apache 2.0
+ On Debian systems, the full text of the Apache License version 2.0 can be
+ found in the file `/usr/share/common-licenses/Apache-2.0'.
+
+Files: debian/*
+Copyright: Copyright 2013 Antoine Musso <amusso@free.fr>
+ Copyright 2013 Wikimedia Foundation Inc.
+License: GPL-2 or Apache 2.0
+ On Debian systems, the full text of the GNU General Public License version 2
+ can be found in the file `/usr/share/common-licenses/Apache-2.0'.
+ On Debian systems, the full text of the Apache License version 2.0 can be
+ found in the file `/usr/share/common-licenses/Apache-2.0'.

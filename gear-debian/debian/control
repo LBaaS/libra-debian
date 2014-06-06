@@ -1,0 +1,61 @@
+Source: python-gear
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Antoine Musso <hashar@free.fr>,
+           Julien Danjou <acid@debian.org>,
+           Thomas Goirand <zigo@debian.org>,
+           Ghe Rivero <ghe.rivero@stackops.com>,
+           Mehdi Abaakouk <sileht@sileht.net>,
+           Paul Belanger <paul.belanger@polybeacon.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 8),
+               openstack-pkg-tools,
+               python-all (>= 2.6.6-3),
+               python-daemon,
+               python-extras,
+               python-statsd (>=1.0.0),
+               python-setuptools (>= 0.6b3),
+               python-sphinx (>=1.1.2),
+               python-pbr,
+# Tests related:
+               python-fixtures (>=0.3.12),
+               python-hacking (>=0.5.3),
+               python-sphinxcontrib-programoutput,
+               python-subunit,
+               python-testrepository (>=0.0.13),
+               python-testresources,
+               python-testscenarios,
+               python-testtools (>=0.9.27),
+#Build-Depends-Indep:
+# From test-requirements.txt we are missing:
+#coverage>=3.6
+#discover
+#hacking>=0.5.3,<0.6
+Standards-Version: 3.9.3
+Homepage: https://pypi.python.org/pypi/gear
+#Vcs-Git: https://review.openstack.org/p/openstack-infra/gear.git
+Vcs-Browser: http://git.openstack.org/cgit/openstack-infra/gear/
+
+Package: python-gear
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: python-daemon,
+         python-extras,
+         python-pbr,
+         ${misc:Depends},
+         ${python:Depends}
+Suggests:  python-statsd
+Description: Pure Python Async Gear Protocol Library
+ python-gear is a pure-Python asynchronous library to interface with Gearman.
+ .
+ It provides interfaces to build a client or worker, and access to the
+ administrative protocol. The design approach is to keep it simple, with a
+ relatively thin abstration of the Gearman protocol itself. It should be easy
+ to use to build a client or worker that operates either synchronously or
+ asynchronously.
+ .
+ The module also provides a simple Gearman server for use as a convenience in
+ unit tests. The server is not designed for production use under load.
+ .
+ Installing the suggested python-statsd package would add support for reporting
+ to statsd a frontend to Graphite a stats collection and graphing server.
