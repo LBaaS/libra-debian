@@ -1,4 +1,4 @@
-libra (5.4.7) precise; urgency=medium
+libra (5.4.7-1) precise; urgency=medium
 
   * added a configuration setting for the build diagnostic timeout 
 
