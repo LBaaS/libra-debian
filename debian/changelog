@@ -1,3 +1,9 @@
+libra (5.4.7) precise; urgency=medium
+
+  * added a configuration setting for the build diagnostic timeout 
+
+ -- Michael Johnson <johnsom@hp.com>  Tue, 01 Jul 2014 17:24:42 +0000
+
 libra (5.4.6-1) precise; urgency=medium
 
   * this is a classic Yelp gear version with the libra worker using Monty's gear
