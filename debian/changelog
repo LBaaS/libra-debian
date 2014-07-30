@@ -1,4 +1,11 @@
-libra (5.4.7-1) precise; urgency=medium
+libra (5.4.8-1) precise; urgency=medium
+
+  * LBAAS-583 - VIP assignment can fail without us noticing
+  * LBAAS-621 - Correct libra to send gearman unique messages
+
+ -- Michael Johnson <johnsom@hp.com>  Tue, 30 Jul 2014 22:28:42 +0000
+
+llibra (5.4.7-1) precise; urgency=medium
 
   * added a configuration setting for the build diagnostic timeout 
 
