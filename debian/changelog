@@ -1,3 +1,11 @@
+libra (5.4.10-1) precise; urgency=medium
+
+  * LBAAS-551 Config setting for build diag timeout (re-merged)
+  * Add more info to logging for devices which fail ping checks (re-merged)
+  * Fixed a permissions problem in the packaging for /var/log/libra
+
+ -- Michael Johnson <johnsom@hp.com>  Wed, 13 Aug 2014 19:02:21 +0000
+
 libra (5.4.8-1) precise; urgency=medium
 
   * LBAAS-583 - VIP assignment can fail without us noticing

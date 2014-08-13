@@ -9,7 +9,7 @@ if [ "$1" = "configure" ]; then
   fi
 
   chown -R libra:adm /var/log/libra/
-  chmod 0750 /var/log/libra/
+  chmod 0755 /var/log/libra/
 fi
 
 #DEBHELPER#
