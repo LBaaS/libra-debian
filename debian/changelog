@@ -1,3 +1,9 @@
+libra (5.4.11-1) precise; urgency=low
+
+  * LBAAS-713 Change the "counter" database commits to be best effort
+
+ -- Michael Johnson <johnsom@hp.com>  Fri, 05 Sep 2014 16:09:21 +0000
+
 libra (5.4.10-1) precise; urgency=medium
 
   * LBAAS-551 Config setting for build diag timeout (re-merged)
