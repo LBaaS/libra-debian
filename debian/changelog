@@ -1,3 +1,9 @@
+libra (5.4.13-1) precise; urgency=low
+
+  * Fixed a typo with missing ()'s 
+
+ -- Michael Johnson <johnsom@hp.com>  Tue, 14 Oct 2014 00:34:07 +0000
+
 libra (5.4.12-1) precise; urgency=low
 
   * LBAAS-709 Pool manager should have timeout on nova calls
