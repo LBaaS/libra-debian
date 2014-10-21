@@ -1,3 +1,9 @@
+libra (5.4.15-1) precise; urgency=high
+
+  * LBAAS-831 Fix Libra pool manager logging bug
+
+ -- Michael Johnson <johnsom@hp.com>  Tue, 21 Oct 2014 18:48:31 +0000
+
 libra (5.4.14-1) precise; urgency=low
 
   * LBAAS-825 Add additional logging to offline pool health checks 
