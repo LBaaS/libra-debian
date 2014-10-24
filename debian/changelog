@@ -1,3 +1,9 @@
+libra (5.4.16-1) precise; urgency=medium
+
+  * LBAAS-843 Add a mechanism to save failed load balancers for forensics 
+
+ -- Michael Johnson <johnsom@hp.com>  Fri, 24 Oct 2014 16:32:15 +0000
+
 libra (5.4.15-1) precise; urgency=high
 
   * LBAAS-831 Fix Libra pool manager logging bug
