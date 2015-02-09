@@ -1,3 +1,9 @@
+libra (5.4.17-1) precise; urgency=medium
+
+  * LBAAS-1035 Don't log mysql connection string
+
+ -- Michael Johnson <johnsom@hp.com>  Mon, 09 Feb 2015 21:51:17 +0000
+
 libra (5.4.16-1) precise; urgency=medium
 
   * LBAAS-843 Add a mechanism to save failed load balancers for forensics 
